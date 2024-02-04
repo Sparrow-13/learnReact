@@ -10,11 +10,12 @@ function LightBulb() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-black ">
+    <div className="flex flex-col items-center justify-center h-screen bg-black " id="light_bulb_div">
       <img
         src={getImageSource()}
         alt="Light Bulb"
         className={lightbulb ? "filter drop-shadow-2xl w-half" : "w-half"}
+        id="light_bulb_img"
       />
       <button
         onClick={() => {
