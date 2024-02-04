@@ -4,7 +4,10 @@
 
 @media only screen and (max-width: 600px) {
     #light_bulb_img{
-        width: 100px;
+        width: 50%;
+    }
+    #light_bulb_div{
+        height: 100dvh;
     }
   }
   
